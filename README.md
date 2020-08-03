@@ -1,71 +1,73 @@
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg" alt="gatsby-novela-theme hero image" />
-</a>
+## Welcome to the Propel School Blog
 
-<br/>
+To contribute to the Propel School Blog please follow the instructions below. 
 
-# Gatsby Starter Novela
+Fork the repo 
 
-With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Gatsby.
+Clone the forked repo
+`git clone https://github.com/<your-username>/blog`
 
-Novela is built by the team at [Narative](https://www.narative.co), and built for everyone that loves the web.
+Create a new branch from the latest master branch
+`git checkout -b <your-name-article-name>`
 
-<div>
-<a href="https://novela.narative.co" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
-</a>
-</div>
+If your contributing for the first time create an authors profile
 
-<div>
-<a href="https://www.narative.co/design/open/novela" target="_blank">
-<img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-cta-figma.jpg" alt="gatsby-novela-theme figma link" width="295px" />
-</a>
-</div>
+- Add your avatar
+Go to `content > authors > authors > avatars`
+Add a square headshot typically `250px X 250px OR 400px X 400px OR 500px X 500px`
+Name the file `firstname-lastname.{jpg/png}
 
-# Using Gatsby Starter Novela
+In the authors directory create a `<firstname>-<lastname>.yml` file with your details`. Example
+```
+name: Ronij Pandey
+bio: |
+  Ronij Pandey | Fellow Jul 2020 Cohort
+avatar: ./avatars/ronij-pandey.jpg
+social:
+  - url: https://twitter.com/ronij2508
 
-This guide will take you through setting up Novela with Gatsby Starter Novela.
+```
+Create a new directory under `content > posts` in the format `yyyy-mm-dd-<name-of-post>`
 
-### Step 1: Starter installation
+Create a new file called  `index.md`
 
-##### With `gatsby-cli`:
+Add meta details of the post to the `index.md` file. 
 
-```sh
-gatsby new novela-site https://github.com/narative/gatsby-starter-novela
+```
+---
+title: Object-Oriented Programming in Java
+author: Ronij Pandey
+date: 2020-07-14
+hero: ./images/robots.png
+slug: object-oriented-programming-in-java
+excerpt: In this article, we will explore the various concepts related to OOP.
+---
 ```
 
-##### With `git clone`:
+Write your post
 
-```sh
-git clone git@github.com:narative/gatsby-starter-novela.git novela-site
 
-cd novela-site
+Add any images required for the project in the same directory as shown in the example content directory
 
-yarn
-```
+You can test locally if you have NodeJS installed
 
-### Step 2: Develop & Build
+`yarn`
+`yarn run dev`
+Check if the blog post is live at 
 
-Once installed or cloned locally and all packages are installed you can begin developing your site.
+`localhost:8000/<slug>`
 
-```sh
-# Run localhost
-yarn dev
+####   If you get stuck or aren't sure of the structure examine the `example-content` directory to understand how to add posts and author profiles.
 
-# Build your Gatsby site
-yarn build
-```
+Once you're done please go through the following checklist
 
-If wanting to use Netlify CMS as the content editor, then you need to be run the proxy in another terminal tab. Then visit
-http://localhost:8000/admin to view the editor.
-```sh
-# Run proxy
-yarn proxy
-```
+[ ] This is an original article written by you and not copied from elsewhere on the internet. 
+[ ] You have permission to use any images referenced in the article with due credits given.
+[ ] Proof read for typos. 
+[ ]  You have added the author avatar
+[ ] You have added the author bio 
+[ ]  Followed directory and file naming conventions
+[ ] Have added slug to the meta details of the post
+[ ] Slug is in small letters `name-of-the-article` 
 
-### Help
-
-If you don't have *yarn* installed follow the [yarn getting started guide](https://classic.yarnpkg.com/en/docs/getting-started) 
-
-For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
-
+Push your branch to your repo and open a pull request. 
