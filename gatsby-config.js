@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Propel Blog`,
-    name: `Propel Blog`,
+    title: `Propel School Blog`,
+    name: `Propel School`,
     siteUrl: `https://blog.propel.school`,
     description: `The Propel School. Learn and be inspired!`,
     hero: {
@@ -10,24 +10,12 @@ module.exports = {
     },
     social: [
       {
-        name: `twitter`,
-        url: `https://twitter.com/narative`,
+        name: `facebook`,
+        url: `https://facebook.com/propelschool`,
       },
       {
-        name: `github`,
-        url: `https://github.com/narative`,
-      },
-      {
-        name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        name: `youtube`,
+        url: `https://www.youtube.com/channel/UC3E2xuKUE6ixP6dfsYtGU3w`,
       },
     ],
   },
@@ -48,8 +36,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Propel School Blog`,
+        short_name: `Propel School`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,

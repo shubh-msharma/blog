@@ -3,6 +3,7 @@ title: Object-Oriented Programming in Java
 author: Ronij Pandey
 date: 2020-07-14
 hero: ./images/robots.png
+slug: object-oriented-programming-in-java
 excerpt: In this article, we will explore the various concepts related to OOP.
 ---
 
