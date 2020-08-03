@@ -61,13 +61,13 @@ Check if the blog post is live at
 
 Once you're done please go through the following checklist
 
-[ ] This is an original article written by you and not copied from elsewhere on the internet. 
-[ ] You have permission to use any images referenced in the article with due credits given.
-[ ] Proof read for typos. 
-[ ]  You have added the author avatar.
-[ ] You have added the author bio.
-[ ]  Followed directory and file naming conventions.
-[ ] Have added slug to the meta details of the post.
-[ ] Slug is in small letters `name-of-the-article`.
+[ ] This is an original article written by you and not copied from elsewhere on the internet.  
+[ ] You have permission to use any images referenced in the article with due credits given.    
+[ ] Proof read for typos.  
+[ ] You have added the author avatar.  
+[ ] You have added the author bio.  
+[ ] Followed directory and file naming conventions.  
+[ ] Have added slug to the meta details of the post.  
+[ ] Slug is in small letters `name-of-the-article`.  
 
 Push your branch to your repo and open a pull request. 
