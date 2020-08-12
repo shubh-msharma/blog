@@ -51,7 +51,7 @@ Add any images required for the project in the same directory as shown in the ex
 
 You can test locally if you have NodeJS installed
 
-`yarn`. 
+`yarn`
 `yarn run dev`
 Check if the blog post is live at 
 
